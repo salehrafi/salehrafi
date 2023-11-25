@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, I'm Saleh Rafi</h1>
-<h3 align="center">A passionate problem solver and tech enthusiast</h3>
+<h3 align="center">A passionate problem solver and sports programmer</h3>
 <img align="center" alt="Coding" width="800" src="https://cdn.dribbble.com/users/1201592/screenshots/9078494/media/422a760a51cef7de2fa3db9daf697853.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=salehrafi&label=Profile%20views&color=0e75b6&style=flat" alt="salehrafi" /> </p>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🌱 I’m currently learning **Advance Flutter**
+- 🌱 I’m currently learning **Advance Java**
 
 - 👨‍💻 All of my projects are available at [github.com/salehrafi](github.com/salehrafi)
 
@@ -14,7 +14,6 @@
 
 - 📫 How to reach me **salehrafishyam@gmail.com**
 
-- ⚡ Fun fact **Lazy coder**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
