@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Saleh Rafi</h1>
 <h3 align="center">A passionate problem solver and sports programmer</h3>
-<img align="center" alt="Coding" width="800" src="https://cdn.dribbble.com/users/1201592/screenshots/9078494/media/422a760a51cef7de2fa3db9daf697853.gif">
+<img align="center" alt="Coding" width= 100% src="https://cdn.dribbble.com/users/1201592/screenshots/9078494/media/422a760a51cef7de2fa3db9daf697853.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=salehrafi&label=Profile%20views&color=0e75b6&style=flat" alt="salehrafi" /> </p>
 
