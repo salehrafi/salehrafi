@@ -16,7 +16,7 @@
 
 <img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-- 🎓 Final-year **Computer Science & Engineering** student at **East West University**
+- 🎓 Final-year **Computer Science & Engineering** student
 - 💻 Passionate about **Software Engineering**, **Machine Learning**, and **Full-Stack Development**
 - 🔬 Currently researching **Reliable AI for Medical Imaging**
 - 🌱 Exploring **Computer Vision**, **Deep Learning**, and **Scalable Software Systems**
@@ -92,7 +92,7 @@
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution
 
 <div align="center">
 
