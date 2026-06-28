@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Software+Engineer;Machine+Learning+and+Computer+Vision+Researcher;Full+Stack+Developer;" />
 
-### Final-Year CSE Student
+### Final-Year CSE Student @ East West University, Bangladesh 🇧🇩
 
 <img src="https://komarev.com/ghpvc/?username=salehrafi&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="views" />
 
