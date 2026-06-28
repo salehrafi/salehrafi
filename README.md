@@ -92,15 +92,16 @@
 
 ---
 
-## Contribution Snake
+## 🐍 Contribution Snake
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/salehrafi/salehrafi/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salehrafi/salehrafi/output/snake-dark.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/salehrafi/salehrafi/output/snake.svg">
+</picture>
 
 </div>
-
----
 
 <div align="center">
 
