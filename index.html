@@ -755,89 +755,104 @@
       </div>
     </section>
 
-    <!-- ===================== EXPERIENCE ===================== -->
-    <!-- same pattern as Education — one .timeline__item per role/entry. -->
-    <section class="section section--alt" id="experience" aria-label="Experience">
-      <div class="container">
-        <div class="section__head" data-reveal>
-          <p class="eyebrow"><span class="eyebrow__dot"></span>Experience</p>
-          <h2 class="section__title">What I <em>did</em></h2>
-          <p class="section__sub">Research, Competitions, and Achievements Throughout My CSE Journey.</p>
+   <!-- ===================== EXPERIENCE ===================== -->
+<section class="section section--alt" id="experience" aria-label="Experience">
+  <div class="container">
+
+    <div class="section__head" data-reveal>
+      <p class="eyebrow">
+        <span class="eyebrow__dot"></span>Experience
+      </p>
+
+      <h2 class="section__title">
+        What I <em>did</em>
+      </h2>
+
+      <p class="section__sub">
+        Research, Competitions, and Achievements Throughout My CSE Journey.
+      </p>
+    </div>
+
+
+    <div class="timeline">
+
+      <div class="timeline__line" aria-hidden="true">
+        <span class="timeline__line-fill" id="expLineFill"></span>
+      </div>
+
+
+      <!-- Capstone Project -->
+      <div class="timeline__item" data-reveal>
+        <div class="timeline__node">
+          <svg width="18" height="18">
+            <use href="#icon-briefcase"></use>
+          </svg>
+        </div>
+        <div class="timeline__card">
+          <span class="timeline__date">
+            Ongoing
+          </span>
+          <h3 class="timeline__title">
+            Final Year Capstone Project
+          </h3>
+          <p class="timeline__org">
+            Supervised By —
+            <a href="https://fse.ewubd.edu/computer-science-engineering/faculty-view/wasif">
+              <b>Dr. Ahmed Wasif Reza</b>
+            </a>
+          </p>
+
+          <p class="timeline__desc">
+            Own the full research lifecycle: data pipeline design,
+            model architecture, ablation studies, statistical validation,
+            and technical writing — applied to a 5-class chest X-ray
+            classification task.</p>
+
+          <div class="pill-row">
+            <span class="pill pill--exp">Research Design</span>
+            <span class="pill pill--exp">Model Ablation</span>
+            <span class="pill pill--exp">Technical Writing</span>
+         </div>
+        </div>
+      </div>
+
+      <!-- Datathon -->
+      <div class="timeline__item" data-reveal data-reveal-delay="1">
+
+        <div class="timeline__node">
+          <svg width="18" height="18">
+            <use href="#icon-laurel"></use>
+          </svg>
         </div>
 
-        <div class="timeline">
-          <div class="timeline__line" aria-hidden="true">
-            <span class="timeline__line-fill" id="expLineFill">
-            </span>
-          </div>
-
-          <div class="timeline__item" data-reveal>
-            <div class="timeline__node">
-              <svg width="18" height="18">
-                <use href="#icon-briefcase"></use>
-              </svg>
-            </div>
-            <div class="timeline__card">
-              <span class="timeline__date">Ongoing</span>
-              <h3 class="timeline__title">Final Year Capstone Project</h3>
-              <p class="timeline__org">Supervised By — <a
-                  href="https://fse.ewubd.edu/computer-science-engineering/faculty-view/wasif"><b>Dr. Ahmed Wasif
-                    Reza</b></a> </p>
-              <p class="timeline__desc">Own the full research lifecycle: data pipeline design, model architecture,
-                ablation studies, statistical validation, and technical writing — applied to a 5-class chest X-ray
-                classification task.</p>
-              <div class="pill-row">
-                <span class="pill pill--exp">Research Design</span>
-                <span class="pill pill--exp">Model Ablation</span>
-                <span class="pill pill--exp">Technical Writing</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="timeline__item" data-reveal data-reveal-delay="1">
-            <div class="timeline__node">
-              <svg width="18" height="18">
-                <use href="#icon-laurel"></use>
-              </svg>
-            </div>
-            <div class="timeline__card">
-              <span class="timeline__date">2024</span>
-              <h3 class="timeline__title">Datathon Champion</h3>
-              <p class="timeline__org">Champion on National Telco Warfare in Data War segment</p>
-              <p class="timeline__desc">Champion among 17 team in final round and Holding Position #1.</p>
-              <div class="pill-row">
-                <span class="pill pill--exp">Deep Learning</span>
-                <span class="pill pill--exp">Image Processing</span>
-                <span class="pill pill--exp">Machine Learning</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- ==================Achievement Highlights========================== -->
-        <div class="cert-block" data-reveal>
-          <h3 class="cert-block__title">Achievements &amp; Highlights</h3>
-          <div class="pill-row pill-row--wrap">
-
-            <!-- <span class="pill pill--achieve">
-            <svg width="14" height="14">
-              <use href="#icon-cap"></use>
-            </svg>
-            Final-Year Research 
-             </span> -->
-
-            <span class="pill pill--achieve">
-              <svg width="14" height="14">
-                <use href="#icon-network-nodes"></use>
-              </svg>
-              Datathon Champion
-            </span>
-
+        <div class="timeline__card">
+          <span class="timeline__date">2024</span>
+          <h3 class="timeline__title">Datathon Champion</h3>
+          <p class="timeline__org">Champion on National Telco Warfare in Data War segment</p>
+          <p class="timeline__desc">Champion among 17 teams in final round and holding Position #1.</p>
+          <div class="pill-row">
+            <span class="pill pill--exp">Deep Learning</span>
+            <span class="pill pill--exp">Image Processing</span>
+            <span class="pill pill--exp">Machine Learning</span>
           </div>
         </div>
       </div>
+    </div>
+    <!-- End Timeline -->
+
+    <!-- ================== Achievement Highlights ================== -->
+    <div class="cert-block" data-reveal>
+      <h3 class="cert-block__title">Achievements &amp; Highlights</h3>
+      <div class="pill-row pill-row--wrap">
+        <span class="pill pill--achieve">
+          <svg width="14" height="14">
+            <use href="#icon-network-nodes"></use>
+          </svg>Datathon Champion</span>
       </div>
-    </section>
+    </div>
+    <!-- End Achievement Highlights -->
+  </div>
+</section>
 
     <!-- ===================== CONTACT ===================== -->
     <section class="section contact" id="contact" aria-label="Contact">
