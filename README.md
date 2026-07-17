@@ -2,7 +2,7 @@
 
 # Hi 👋, I'm **Md. Saleh Rafi**
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Software+Engineer;Machine+Learning+and+Computer+Vision+Researcher;Full+Stack+Developer;" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Software+Engineer;Machine+Learning+Researcher;Full+Stack+Developer;" />
 
 ### Final-Year CSE Student @ East West University, Bangladesh 🇧🇩
 
