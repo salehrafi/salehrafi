@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Md. Saleh Rafi — Researcher &amp; Software and ML Engineer</title>
+  <meta name="description"
+    content="Portfolio of Md. Saleh Rafi — a Computer Science &amp; Engineering student specializing in Graph Neural Networks, computer vision, applied deep learning research, Full stack developer -- JS, PHP">
+  <meta name="theme-color" content="#FBF7EF">
+
+  <!-- Open Graph / SEO — EDIT to match the title/description above -->
+  <meta property="og:title" content="Md. Saleh Rafi — Researcher, ML Engineer. Full Stack Developer">
+  <meta property="og:description" content="Graph Neural Networks, computer vision & applied ML research portfolio.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts: Fraunces (display), Inter (body), JetBrains Mono (data/tags) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <!-- Brand mark / GNN-style node network -->
+    <symbol id="icon-network" viewBox="0 0 24 24" fill="none">
+      <circle cx="5" cy="6" r="2.4" fill="currentColor" />
+      <circle cx="19" cy="6" r="2.4" fill="currentColor" />
+      <circle cx="12" cy="18" r="2.4" fill="currentColor" />
+      <path d="M6.9 7.4L11 16.6M17.1 7.4L13 16.6M7.4 6H16.6" stroke="currentColor" stroke-width="1.4"
+        stroke-linecap="round" />
+    </symbol>
+
+    <!-- Node network variant (4 nodes) used for ML/skill icons -->
+    <symbol id="icon-network-nodes" viewBox="0 0 24 24" fill="none">
+      <circle cx="5" cy="6" r="2" stroke="currentColor" stroke-width="1.6" />
+      <circle cx="19" cy="6" r="2" stroke="currentColor" stroke-width="1.6" />
+      <circle cx="12" cy="18" r="2" stroke="currentColor" stroke-width="1.6" />
+      <circle cx="12" cy="10" r="2" stroke="currentColor" stroke-width="1.6" />
+      <path d="M6.7 7.1 10.5 9M17.3 7.1 13.5 9M12 12v4" stroke="currentColor" stroke-width="1.6" />
+    </symbol>
+
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24" fill="none">
+      <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="icon-arrow-up" viewBox="0 0 24 24" fill="none">
+      <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="icon-send" viewBox="0 0 24 24" fill="none">
+      <path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="icon-external" viewBox="0 0 24 24" fill="none">
+      <path d="M14 4h6v6M20 4 10 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+        stroke-linejoin="round" />
+      <path d="M18 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6" stroke="currentColor" stroke-width="1.8"
+        stroke-linecap="round" />
+    </symbol>
+
+    <symbol id="icon-github" viewBox="0 0 24 24" fill="none">
+      <path
+        d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.58 2.36 1.12 2.93.86.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.05 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.92-2.34 4.78-4.57 5.04.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"
+        fill="currentColor" />
+    </symbol>
+
+    <symbol id="icon-linkedin" viewBox="0 0 24 24" fill="none">
+      <path
+        d="M6.94 8.5H4.06V19H6.94V8.5ZM5.5 7.25c.97 0 1.63-.66 1.63-1.5S6.47 4.25 5.5 4.25c-.96 0-1.63.66-1.63 1.5s.67 1.5 1.63 1.5ZM20 12.85c0-2.66-1.43-3.9-3.34-3.9-1.54 0-2.23.86-2.61 1.46V8.5h-2.88c.04.8 0 10.5 0 10.5h2.88v-5.86c0-.31.02-.63.11-.85.25-.63.82-1.28 1.77-1.28 1.25 0 1.75.95 1.75 2.35V19H20v-6.15Z"
+        fill="currentColor" />
+    </symbol>
+
+    <symbol id="icon-kaggle" viewBox="0 0 24 24" fill="none">
+      <path
+        d="M18.5 20.2h-3.1a.6.6 0 0 1-.5-.25l-4.4-5.8-1.6 1.5v4a.5.5 0 0 1-.5.5H6a.5.5 0 0 1-.5-.5V4a.5.5 0 0 1 .5-.5h2.4a.5.5 0 0 1 .5.5v9.3l4.9-4.9a.7.7 0 0 1 .5-.2h3.2c.4 0 .6.5.3.8l-5.3 5 5.9 7.3c.2.4 0 .9-.4.9Z"
+        fill="currentColor" />
+    </symbol>
+
+    <symbol id="icon-mail" viewBox="0 0 24 24" fill="none">
+      <path
+        d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-11Z"
+        stroke="currentColor" stroke-width="1.6" />
+      <path d="m4 6.5 8 6.5 8-6.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+
+    <symbol id="icon-location" viewBox="0 0 24 24" fill="none">
+      <path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z" stroke="currentColor" stroke-width="1.6"
+        stroke-linejoin="round" />
+      <circle cx="12" cy="9.5" r="2.4" stroke="currentColor" stroke-width="1.6" />
+    </symbol>
+
+    <symbol id="icon-user" viewBox="0 0 24 24" fill="none">
+      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="1.6"
+        stroke-linecap="round" />
+      <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="1.6" />
+    </symbol>
+
+    <!-- Education: graduation cap -->
+    <symbol id="icon-cap" viewBox="0 0 24 24" fill="none">
+      <path d="M22 10 12 5 2 10l10 5 10-5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+      <path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+    </symbol>
+
+    <!-- Education: open book / folder -->
+    <symbol id="icon-book" viewBox="0 0 24 24" fill="none">
+      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z" stroke="currentColor" stroke-width="1.6"
+        stroke-linejoin="round" />
+    </symbol>
+
+    <!-- Milestone: shield check (current/active state) -->
+    <symbol id="icon-shield-check" viewBox="0 0 24 24" fill="none">
+      <path d="M12 2 4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-4Z" stroke="currentColor" stroke-width="1.6"
+        stroke-linejoin="round" />
+      <path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+    <!-- Milestone: clock/progress (alt current state) -->
+    <symbol id="icon-clock" viewBox="0 0 24 24" fill="none">
+      <path d="M12 2 4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-4Z" stroke="currentColor" stroke-width="1.6"
+        stroke-linejoin="round" />
+      <path d="M12 8v4l2.5 2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+
+    <!-- Skills: code brackets -->
+    <symbol id="icon-code" viewBox="0 0 24 24" fill="none">
+      <path d="m8 9-4 3 4 3M16 9l4 3-4 3M13 5l-2 14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+
+    <!-- Skills: wrench (tools) -->
+    <symbol id="icon-wrench" viewBox="0 0 24 24" fill="none">
+      <path d="M14.7 6.3a3.5 3.5 0 0 1-4.6 4.6L4 17l3 3 6.1-6.1a3.5 3.5 0 0 1 4.6-4.6L14.7 6.3Z" stroke="currentColor"
+        stroke-width="1.6" stroke-linejoin="round" />
+    </symbol>
+
+    <!-- Skills: grid (core CS) -->
+    <symbol id="icon-grid" viewBox="0 0 24 24" fill="none">
+      <rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.6" />
+      <path d="M4 10h16M10 10v10" stroke="currentColor" stroke-width="1.6" />
+    </symbol>
+
+    <!-- Projects: camera / detection -->
+    <symbol id="icon-camera" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.4" />
+      <circle cx="9" cy="11" r="2" stroke="currentColor" stroke-width="1.4" />
+      <path d="m4 17 4.5-4 3 2.5L17 11l3 3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </symbol>
+
+    <!-- Projects: bar chart / analysis -->
+    <symbol id="icon-chart" viewBox="0 0 24 24" fill="none">
+      <path d="M4 6h16M4 12h10M4 18h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+      <circle cx="19" cy="12" r="1.6" fill="currentColor" />
+    </symbol>
+
+    <!-- Projects: package / layers -->
+    <symbol id="icon-package" viewBox="0 0 24 24" fill="none">
+      <path d="M4 4h16v4H4zM4 10h10v4H4zM4 16h16v4H4z" stroke="currentColor" stroke-width="1.4"
+        stroke-linejoin="round" />
+    </symbol>
+
+    <!-- Experience: briefcase -->
+    <symbol id="icon-briefcase" viewBox="0 0 24 24" fill="none">
+      <path d="M9 3v4M15 3v4M4 8h16M6 8v11a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8" stroke="currentColor" stroke-width="1.6"
+        stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+    <!-- Experience: laurel / award -->
+    <symbol id="icon-laurel" viewBox="0 0 24 24" fill="none">
+      <path d="M12 15a5 5 0 0 0 5-5V4H7v6a5 5 0 0 0 5 5Z" stroke="currentColor" stroke-width="1.6"
+        stroke-linejoin="round" />
+      <path d="M7 5H4v2a4 4 0 0 0 4 4M17 5h3v2a4 4 0 0 1-4 4M12 15v3M8 21h8M9 18h6" stroke="currentColor"
+        stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+    <!-- for achievements -->
+    <symbol id="icon-star" viewBox="0 0 24 24" fill="none">
+      <path d="m12 2.5 2.9 6.1 6.6.7-4.9 4.5 1.3 6.6L12 17.1l-5.9 3.3 1.3-6.6-4.9-4.5 6.6-.7L12 2.5Z"
+        stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+    </symbol>
+  </svg>
+
+  <a href="#home" class="skip-link">Skip to content</a>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="nav-wrap" id="navWrap">
+    <nav class="nav" aria-label="Primary">
+      <a href="#home" class="nav__brand" aria-label="Home">
+        <span class="nav__brand-mark" aria-hidden="true">
+          <svg width="30" height="30">
+            <use href="#icon-network"></use>
+          </svg>
+        </span>
+
+        <span class="nav__brand-text">Saleh<em>Rafi</em></span>
+      </a>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#home" class="nav__link active" data-nav>Home</a></li>
+        <li><a href="#education" class="nav__link" data-nav>Education</a></li>
+        <li><a href="#skills" class="nav__link" data-nav>Skills</a></li>
+        <li><a href="#projects" class="nav__link" data-nav>Projects</a></li>
+        <li><a href="#experience" class="nav__link" data-nav>Experience</a></li>
+        <li><a href="#contact" class="nav__link" data-nav>Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn--ghost nav__cta">Let's talk</a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"
+        aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="home">
+
+    <!--  HERO  -->
+    <section class="hero" aria-label="Introduction">
+      <canvas class="hero__canvas" id="graphCanvas" aria-hidden="true"></canvas>
+      <div class="hero__glow hero__glow--a" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--b" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__content" data-reveal>
+
+          <!--  role / current status line -->
+          <p class="eyebrow">
+            <span class="eyebrow__dot"></span>
+            Final-Year CSE Student · East West University, Dhaka
+          </p>
+
+          <h1 class="hero__title">
+            Building intelligence into
+            <span class="hero__title-swap" id="titleSwap">graphs.</span>
+          </h1>
+
+          <!-- 2–3 sentence introduction -->
+          <p class="hero__desc">
+            I'm <strong>Md. Saleh Rafi</strong> — a Computer Science &amp;
+            Engineering student and researcher, focused on Graph Neural Networks and
+            computer vision. My thesis work centers on GATv2-based architectures for
+            medical image classification using a primary curated dataset.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">
+              View Projects
+              <svg width="16" height="16">
+                <use href="#icon-arrow-right"></use>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn--outline">
+              Get in Touch
+            </a>
+          </div>
+
+          <div class="hero__social" aria-label="Social links">
+            <a href="https://github.com/salehrafi/" class="social-icon" aria-label="GitHub" target="_blank"
+              rel="noopener">
+              <svg width="20" height="20">
+                <use href="#icon-github"></use>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/salehrafi/" class="social-icon" aria-label="LinkedIn" target="_blank"
+              rel="noopener">
+              <svg width="20" height="20">
+                <use href="#icon-linkedin"></use>
+              </svg>
+            </a>
+            <a href="https://www.kaggle.com/salehrafi/" class="social-icon" aria-label="Kaggle" target="_blank"
+              rel="noopener">
+              <svg width="20" height="20">
+                <use href="#icon-kaggle"></use>
+              </svg>
+            </a>
+            <a href="mailto:saleh.rafi.01@gmail.com" class="social-icon" aria-label="Email">
+              <svg width="20" height="20">
+                <use href="#icon-mail"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__portrait" data-reveal data-reveal-delay="1">
+          <div class="portrait-frame">
+            <img src="/assets/dp.png" alt="Md. Saleh Rafi" class="portrait-frame__img" />
+            <span class="portrait-frame__ring"></span>
+          </div>
+
+          <!-- two quick stats about you -->
+          <div class="stat-chip stat-chip--tl">
+            <!-- <strong data-counter="5">0</strong> -->
+            <span>Software Engineer<br> and researcher</span>
+          </div>
+
+
+          <div class="stat-chip stat-chip--br">
+            <strong data-counter="4">0</strong><span>th</span>
+            <span class="stat-chip__label">Year, in CSE</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#education" class="scroll-cue" aria-label="Scroll to Education">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section" id="education" aria-label="Education">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Education</p>
+          <h2 class="section__title">Academic <em>timeline</em></h2>
+          <p class="section__sub">The path from foundational coursework to applied research in graph-based deep
+            learning.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__line" aria-hidden="true"><span class="timeline__line-fill" id="eduLineFill"></span>
+          </div>
+
+          <!-- Milestone 1 -->
+          <div class="timeline__item" data-reveal>
+            <div class="timeline__node">
+              <svg width="18" height="18">
+                <use href="#icon-cap"></use>
+              </svg>
+            </div>
+            <div class="timeline__card">
+
+              <!-- studentship details at EWU -->
+              <span class="timeline__date">2022 — 2026</span>
+              <h3 class="timeline__title">B.Sc. in Computer Science &amp; Engineering</h3>
+              <p class="timeline__org">East West University, Dhaka, Bangladesh</p>
+              <p class="timeline__desc">Final-year standing with a focus on machine learning, computer vision, and graph
+                representation learning. Coursework spans data structures, statistics, and applied AI.</p>
+              <div class="pill-row">
+                <span class="pill pill--edu">Deep Learning</span>
+                <span class="pill pill--edu">Computer Vision</span>
+                <span class="pill pill--edu">Software Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- studentship details at PLSC -->
+          <!-- Milestone 2: HSC -->
+          <div class="timeline__item" data-reveal>
+            <div class="timeline__node">
+              <svg width="18" height="18">
+                <use href="#icon-book"></use>
+              </svg>
+            </div>
+            <div class="timeline__card">
+              <span class="timeline__date">2019 — 2021</span>
+              <h3 class="timeline__title">Higher Secondary School Certificate (HSC)</h3>
+              <p class="timeline__org">Police Lines School &amp; College, Bogura</p>
+              <p class="timeline__desc">
+                Completed HSC in the Science Group, building a foundation in
+                mathematics, physics, and analytical thinking ahead of a computer
+                science degree.
+              </p>
+
+              <span class="timeline__grade">
+                <svg width="13" height="13">
+                  <use href="#icon-star"></use>
+                </svg>
+                GPA 5.00 / 5.00
+              </span>
+
+              <div class="pill-row">
+                <span class="pill pill--edu">Science Group</span>
+                <span class="pill pill--edu">Physics</span>
+                <span class="pill pill--edu">Higher Mathematics</span>
+                <span class="pill pill--edu">Programming Foundation</span>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Milestone 3: SSC -->
+          <div class="timeline__item" data-reveal>
+            <div class="timeline__node">
+              <svg width="18" height="18">
+                <use href="#icon-book"></use>
+              </svg>
+            </div>
+            <div class="timeline__card">
+              <span class="timeline__date">2014 — 2019</span>
+              <h3 class="timeline__title">Secondary School Certificate (SSC)</h3>
+              <p class="timeline__org">Kashira High School, Akkelpur, Joypurhat</p>
+              <p class="timeline__desc">
+                Completed SSC in the Science Group, building a foundation in
+                science, and analytical thinking.
+              </p>
+
+              <span class="timeline__grade">
+                <svg width="13" height="13">
+                  <use href="#icon-star"></use>
+                </svg>
+                GPA 5.00 / 5.00
+              </span>
+
+              <div class="pill-row">
+                <span class="pill pill--edu">Science Group</span>
+                <!-- <span class="pill pill--edu">Physics</span>
+                <span class="pill pill--edu">Higher Mathematics</span> -->
+              </div>
+            </div>
+          </div>
+          <!-- Milestone 2 -->
+          <!-- <div class="timeline__item" data-reveal>
+            <div class="timeline__node">
+              <svg width="18" height="18">
+                <use href="#icon-book"></use>
+              </svg>
+            </div>
+            <div class="timeline__card">
+              <span class="timeline__date">Ongoing</span>
+              <h3 class="timeline__title">Independent Research — GATv2 for Medical Imaging</h3>
+              <p class="timeline__org">Self-directed Research Project</p>
+              <p class="timeline__desc">Designing a hybrid ResNet18 → SLIC superpixel → GATv2Conv pipeline for chest
+                X-ray classification, with a full statistical analysis plan covering bootstrapped confidence intervals
+                and paired significance testing.</p>
+              <div class="pill-row">
+                <span class="pill pill--edu">GNNs</span>
+                <span class="pill pill--edu">PyTorch Geometric</span>
+                <span class="pill pill--edu">Medical Imaging</span>
+              </div>
+            </div>
+          </div>
+
+          Milestone 3 (current — uses the highlighted node/card style)
+          <div class="timeline__item" data-reveal>
+            <div class="timeline__node timeline__node--current">
+              <svg width="18" height="18">
+                <use href="#icon-shield-check"></use>
+              </svg>
+            </div>
+            <div class="timeline__card timeline__card--current">
+              <span class="timeline__date">2026</span>
+              <h3 class="timeline__title">Coursework — CSE 445 Computer Vision</h3>
+              <p class="timeline__org">East West University, Dhaka</p>
+              <p class="timeline__desc">Comparing object detection architectures (including RF-DETR) on thermal imaging
+                datasets, alongside classical CV foundations such as Harris corner detection.</p>
+              <div class="pill-row">
+                <span class="pill pill--edu">Object Detection</span>
+                <span class="pill pill--edu">RF-DETR</span>
+                <span class="pill pill--edu">Feature Detection</span>
+              </div>
+            </div>
+          </div> -->
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <!-- each .skill-group is a category. The `data-level` attribute on
+         each pill (0–100) sets the tooltip shown on hover, wired in script.js. -->
+    <section class="section section--alt" id="skills" aria-label="Skills">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Skills</p>
+          <h2 class="section__title">Tools of the <em>trade</em></h2>
+          <p class="section__sub">A working toolkit for research, modeling, and shipping — grouped by how I actually use
+            them.</p>
+        </div>
+
+        <!-- `data-level` (0–100) drives the hover tooltip in script.js —
+             adjust each number to reflect your own confidence honestly. -->
+        <div class="skills-grid">
+          <div class="skill-group" data-reveal>
+            <div class="skill-group__head">
+              <span class="skill-group__icon skill-group__icon--lang" aria-hidden="true">
+                <svg width="18" height="18">
+                  <use href="#icon-code"></use>
+                </svg>
+              </span>
+              <h3>Languages</h3>
+            </div>
+            <div class="pill-row pill-row--interactive">
+              <span class="pill pill--lang" data-level="90">Python</span>
+              <span class="pill pill--lang" data-level="75">C++</span>
+              <span class="pill pill--lang" data-level="70">Java</span>
+              <span class="pill pill--lang" data-level="80">LaTeX</span>
+              <span class="pill pill--lang" data-level="60">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-group" data-reveal data-reveal-delay="1">
+            <div class="skill-group__head">
+              <span class="skill-group__icon skill-group__icon--ml" aria-hidden="true">
+                <svg width="18" height="18">
+                  <use href="#icon-network-nodes"></use>
+                </svg>
+              </span>
+              <h3>ML &amp; Deep Learning</h3>
+            </div>
+            <div class="pill-row pill-row--interactive">
+              <span class="pill pill--ml" data-level="88">PyTorch</span>
+              <span class="pill pill--ml" data-level="85">PyTorch Geometric</span>
+              <span class="pill pill--ml" data-level="82">Graph Neural Networks</span>
+              <span class="pill pill--ml" data-level="80">Computer Vision</span>
+              <span class="pill pill--ml" data-level="78">scikit-learn</span>
+            </div>
+          </div>
+
+          <div class="skill-group" data-reveal data-reveal-delay="2">
+            <div class="skill-group__head">
+              <span class="skill-group__icon skill-group__icon--tools" aria-hidden="true">
+                <svg width="18" height="18">
+                  <use href="#icon-wrench"></use>
+                </svg>
+              </span>
+              <h3>Tools &amp; Platforms</h3>
+            </div>
+            <div class="pill-row pill-row--interactive">
+              <span class="pill pill--tools" data-level="85">Kaggle</span>
+              <span class="pill pill--tools" data-level="80">Git &amp; GitHub</span>
+              <span class="pill pill--tools" data-level="75">NumPy / Pandas</span>
+              <span class="pill pill--tools" data-level="70">Jupyter</span>
+              <span class="pill pill--tools" data-level="65">Linux</span>
+            </div>
+          </div>
+
+          <div class="skill-group" data-reveal data-reveal-delay="3">
+            <div class="skill-group__head">
+              <span class="skill-group__icon skill-group__icon--core" aria-hidden="true">
+                <svg width="18" height="18">
+                  <use href="#icon-grid"></use>
+                </svg>
+              </span>
+              <h3>Core CS &amp; Analysis</h3>
+            </div>
+            <div class="pill-row pill-row--interactive">
+              <span class="pill pill--core" data-level="82">Data Structures</span>
+              <span class="pill pill--core" data-level="78">Statistical Analysis</span>
+              <span class="pill pill--core" data-level="75">Algorithms</span>
+              <span class="pill pill--core" data-level="70">OOP Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3–5 headline focus areas — percentages below are estimates,
+             adjust to reflect your own confidence -->
+        <div class="proficiency" data-reveal>
+          <h3 class="proficiency__title">Focus areas</h3>
+          <div class="proficiency__list">
+            <div class="proficiency__row">
+              <div class="proficiency__label"><span>Graph Neural Networks</span><span
+                  class="proficiency__pct">88%</span></div>
+              <div class="proficiency__track">
+                <div class="proficiency__fill" data-fill="88"></div>
+              </div>
+            </div>
+            <div class="proficiency__row">
+              <div class="proficiency__label"><span>Computer Vision</span><span class="proficiency__pct">82%</span>
+              </div>
+              <div class="proficiency__track">
+                <div class="proficiency__fill" data-fill="82"></div>
+              </div>
+            </div>
+            <div class="proficiency__row">
+              <div class="proficiency__label"><span>Applied Statistics</span><span class="proficiency__pct">78%</span>
+              </div>
+              <div class="proficiency__track">
+                <div class="proficiency__fill" data-fill="78"></div>
+              </div>
+            </div>
+            <div class="proficiency__row">
+              <div class="proficiency__label"><span>Software Engineering</span><span class="proficiency__pct">74%</span>
+              </div>
+              <div class="proficiency__track">
+                <div class="proficiency__fill" data-fill="74"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <!-- each .project-card needs a `data-cat` value matching a
+         data-filter on the buttons above, e.g. data-cat="cv tools" if a
+         project belongs to more than one category. Swap the placeholder
+         icon div for a real image: <img src="project-1.jpg" alt="..."> -->
+    <section class="section" id="projects" aria-label="Projects">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Projects</p>
+          <h2 class="section__title">Selected <em>work</em></h2>
+          <p class="section__sub">Research-driven builds — from graph-based medical imaging to detection benchmarking.
+          </p>
+        </div>
+
+        <div class="filter-row" id="filterRow" data-reveal>
+          <button class="filter-btn is-active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="gnn">Graph Neural Nets</button>
+          <button class="filter-btn" data-filter="cv">Computer Vision</button>
+          <button class="filter-btn" data-filter="tools">Tooling</button>
+        </div>
+
+        <div class="project-grid" id="projectGrid">
+
+          <article class="project-card" data-cat="gnn" data-reveal>
+            <div class="project-card__media">
+              <!-- replace with <img src="..." alt="..."> for a real preview -->
+              <div class="project-card__ph">
+                <svg width="46" height="46">
+                  <use href="#icon-network-nodes"></use>
+                </svg>
+              </div>
+              <div class="project-card__overlay">
+                <!-- I don't have your repo/demo links — replace both href="#" -->
+                <a href="#" class="icon-btn" aria-label="Live demo" target="_blank" rel="noopener">
+                  <svg width="18" height="18">
+                    <use href="#icon-external"></use>
+                  </svg>
+                </a>
+                <a href="#" class="icon-btn" aria-label="Source code" target="_blank" rel="noopener">
+                  <svg width="18" height="18">
+                    <use href="#icon-github"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">GATv2 Chest X-Ray Classifier</h3>
+              <p class="project-card__desc">A hybrid ResNet18 → SLIC superpixel → GATv2Conv pipeline classifying chest
+                X-rays across five diagnostic classes, with a full statistical validation suite.</p>
+              <div class="pill-row">
+                <span class="pill pill--stack">PyTorch Geometric</span>
+                <span class="pill pill--stack">ResNet18</span>
+                <span class="pill pill--stack">SLIC</span>
+                <span class="pill pill--stack">GATv2</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-cat="cv" data-reveal data-reveal-delay="1">
+            <div class="project-card__media">
+              <div class="project-card__ph">
+                <svg width="46" height="46">
+                  <use href="#icon-camera"></use>
+                </svg>
+              </div>
+              <div class="project-card__overlay">
+                <a href="#" class="icon-btn" aria-label="Live demo" target="_blank" rel="noopener">
+                  <svg width="18" height="18">
+                    <use href="#icon-external"></use>
+                  </svg>
+                </a>
+                <a href="#" class="icon-btn" aria-label="Source code" target="_blank" rel="noopener">
+                  <svg width="18" height="18">
+                    <use href="#icon-github"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">RF-DETR vs. YOLO — Thermal Detection</h3>
+              <p class="project-card__desc">Comparative benchmark of object detection architectures on the FLIR
+                thermal/infrared dataset across three classes, evaluating DINOv2-backed transformers against YOLO
+                baselines.</p>
+              <div class="pill-row">
+                <span class="pill pill--stack">RF-DETR</span>
+                <span class="pill pill--stack">DINOv2</span>
+                <span class="pill pill--stack">YOLO</span>
+                <span class="pill pill--stack">Thermal Imaging</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-cat="gnn cv" data-reveal data-reveal-delay="2">
+            <div class="project-card__media">
+              <div class="project-card__ph">
+                <svg width="46" height="46">
+                  <use href="#icon-chart"></use>
+                </svg>
+              </div>
+              <div class="project-card__overlay">
+                <a href="#" class="icon-btn" aria-label="Live demo" target="_blank" rel="noopener">
+                  <svg width="18" height="18">
+                    <use href="#icon-external"></use>
+                  </svg>
+                </a>
+                <a href="#" class="icon-btn" aria-label="Source code" target="_blank" rel="noopener">
+                  <svg width="18" height="18">
+                    <use href="#icon-github"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Statistical Analysis Plan Toolkit</h3>
+              <p class="project-card__desc">A reproducible SAP framework for GNN model evaluation — bootstrapped
+                confidence intervals, Holm-corrected paired t-tests, DeLong's and McNemar's tests across k-fold splits.
+              </p>
+              <div class="pill-row">
+                <span class="pill pill--stack">SciPy</span>
+                <span class="pill pill--stack">Bootstrapping</span>
+                <span class="pill pill--stack">Hypothesis Testing</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-cat="tools" data-reveal data-reveal-delay="3">
+            <div class="project-card__media">
+              <div class="project-card__ph">
+                <svg width="46" height="46">
+                  <use href="#icon-package"></use>
+                </svg>
+              </div>
+              <div class="project-card__overlay">
+                <a href="#" class="icon-btn" aria-label="Live demo" target="_blank" rel="noopener">
+                  <svg width="18" height="18">
+                    <use href="#icon-external"></use>
+                  </svg>
+                </a>
+                <a href="#" class="icon-btn" aria-label="Source code" target="_blank" rel="noopener">
+                  <svg width="18" height="18">
+                    <use href="#icon-github"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">cxr_gnn — Modular GNN Package</h3>
+              <p class="project-card__desc">Refactored a research notebook into a production-ready Python package:
+                config-driven training, calibration, ablation tooling, and disk-cached graph construction.</p>
+              <div class="pill-row">
+                <span class="pill pill--stack">Python Packaging</span>
+                <span class="pill pill--stack">PyTorch</span>
+                <span class="pill pill--stack">CI-friendly</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <!-- same pattern as Education — one .timeline__item per role/entry. -->
+    <section class="section section--alt" id="experience" aria-label="Experience">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Experience</p>
+          <h2 class="section__title">What I <em>did</em></h2>
+          <p class="section__sub">Research, Competitions, and Achievements Throughout My CSE Journey.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__line" aria-hidden="true">
+            <span class="timeline__line-fill" id="expLineFill">
+            </span>
+          </div>
+
+          <div class="timeline__item" data-reveal>
+            <div class="timeline__node">
+              <svg width="18" height="18">
+                <use href="#icon-briefcase"></use>
+              </svg>
+            </div>
+            <div class="timeline__card">
+              <span class="timeline__date">Ongoing</span>
+              <h3 class="timeline__title">Final Year Capstone Project</h3>
+              <p class="timeline__org">Supervised By — <a
+                  href="https://fse.ewubd.edu/computer-science-engineering/faculty-view/wasif"><b>Dr. Ahmed Wasif
+                    Reza</b></a> </p>
+              <p class="timeline__desc">Own the full research lifecycle: data pipeline design, model architecture,
+                ablation studies, statistical validation, and technical writing — applied to a 5-class chest X-ray
+                classification task.</p>
+              <div class="pill-row">
+                <span class="pill pill--exp">Research Design</span>
+                <span class="pill pill--exp">Model Ablation</span>
+                <span class="pill pill--exp">Technical Writing</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__item" data-reveal data-reveal-delay="1">
+            <div class="timeline__node">
+              <svg width="18" height="18">
+                <use href="#icon-laurel"></use>
+              </svg>
+            </div>
+            <div class="timeline__card">
+              <span class="timeline__date">2024</span>
+              <h3 class="timeline__title">Datathon Champion</h3>
+              <p class="timeline__org">Champion on National Telco Warfare in Data War segment</p>
+              <p class="timeline__desc">Champion among 17 team in final round and Holding Position #1.</p>
+              <div class="pill-row">
+                <span class="pill pill--exp">Deep Learning</span>
+                <span class="pill pill--exp">Image Processing</span>
+                <span class="pill pill--exp">Machine Learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="timeline__item" data-reveal data-reveal-delay="2">
+            <div class="timeline__node timeline__node--current">
+              <svg width="18" height="18">
+                <use href="#icon-clock"></use>
+              </svg>
+            </div>
+
+
+
+            <div class="timeline__card timeline__card--current">
+              <span class="timeline__date">Continuous</span>
+              <h3 class="timeline__title">Kaggle Notebook Development</h3>
+              <p class="timeline__org">CSE 445 &amp; Independent Study</p>
+              <p class="timeline__desc">Builds reproducible Kaggle notebooks benchmarking detection and classification
+                models, with disciplined attention to caching, memory limits, and evaluation rigor.</p>
+              <div class="pill-row">
+                <span class="pill pill--exp">Reproducibility</span>
+                <span class="pill pill--exp">Benchmarking</span>
+              </div>
+            </div>
+         -->
+      <!-- ==================Achievement Highlights========================== -->
+      <div class="cert-block" data-reveal>
+        <h3 class="cert-block__title">Achievements &amp; Highlights</h3>
+        <div class="pill-row pill-row--wrap">
+
+          <!-- <span class="pill pill--achieve">
+            <svg width="14" height="14">
+              <use href="#icon-cap"></use>
+            </svg>
+            Final-Year Research 
+          </span> -->
+
+          <span class="pill pill--achieve">
+            <svg width="14" height="14">
+              <use href="#icon-network-nodes"></use>
+            </svg>
+            Datathon Champion
+          </span>
+
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact" aria-label="Contact">
+      <div class="hero__glow hero__glow--c" aria-hidden="true"></div>
+      <div class="container contact__grid">
+
+        <div class="contact__intro" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Contact</p>
+          <h2 class="section__title">Let's build something<br><em>together.</em></h2>
+          <p class="section__sub">
+            Open to research collaborations, internships, and roles where graph
+            learning and computer vision meet real-world problems. If that's what
+            you're working on, I'd like to hear about it.
+          </p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon">
+                <svg width="18" height="18">
+                  <use href="#icon-mail"></use>
+                </svg>
+              </span>
+              <div>
+                <span class="contact__label">Email</span>
+                <a href="mailto:you@example.com">saleh.rafi.01@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact__icon">
+                <svg width="18" height="18">
+                  <use href="#icon-location"></use>
+                </svg>
+              </span>
+              <div>
+                <span class="contact__label">Location</span>
+                <span>Dhaka, Bangladesh</span>
+              </div>
+            </li>
+          </ul>
+
+          <div class="hero__social contact__social" aria-label="Social links">
+            <a href="https://github.com/salehrafi/" class="social-icon" aria-label="GitHub" target="_blank"
+              rel="noopener">
+              <svg width="18" height="18">
+                <use href="#icon-github"></use>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/salehrafi/" class="social-icon" aria-label="LinkedIn" target="_blank"
+              rel="noopener">
+              <svg width="18" height="18">
+                <use href="#icon-linkedin"></use>
+              </svg>
+            </a>
+            <a href="https://www.kaggle.com/salehrafi/" class="social-icon" aria-label="Kaggle" target="_blank"
+              rel="noopener">
+              <svg width="18" height="18">
+                <use href="#icon-kaggle"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!--
+         this form currently just simulates sending (see script.js).
+          To make it work for real, either:
+            1) point it at a form backend like Formspree/EmailJS and swap the
+               JS submit handler for a fetch() call, or
+            2) add `action="https://formspree.io/f/yourFormId" method="POST"`
+               here and remove the preventDefault() in script.js.
+        -->
+        <form class="contact-form" id="contactForm" data-reveal data-reveal-delay="1" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" required>
+            <span class="form-error" data-error-for="name"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            <span class="form-error" data-error-for="email"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+            <span class="form-error" data-error-for="subject"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the project or role..."
+              required></textarea>
+            <span class="form-error" data-error-for="message"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block" id="submitBtn">
+            <span class="btn__label">Send Message</span>
+            <svg width="16" height="16">
+              <use href="#icon-send"></use>
+            </svg>
+          </button>
+
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <!-- your name -->
+      <p>&copy; <span id="year"></span> Md. Saleh Rafi. Built with HTML, CSS &amp; vanilla JS.</p>
+      <a href="#home" class="footer__top" aria-label="Back to top">
+        <svg width="16" height="16">
+          <use href="#icon-arrow-up"></use>
+        </svg>
+        Back to top
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
