@@ -21,7 +21,7 @@
 - 🔬 Currently researching **Reliable AI for Medical Imaging**
 - 🌱 Exploring **Computer Vision**, **Deep Learning**, and **Scalable Software Systems**
 - 🤝 Open to collaboration on **Open Source**, **AI**, and **Web Development** projects
-- 📫 Reach me at **saleh.rafi.01@gmail.com**
+- 📫 Reach me at **https://salehrafi.github.io/salehrafi/**
 
 <br>
 
