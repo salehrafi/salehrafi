@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rafi@terminal — Md. Saleh Rafi</title>
+  <meta name="description"
+    content="Interactive terminal portfolio of Md. Saleh Rafi — Software Engineer, Machine Learning Researcher and Full Stack Developer.">
+  <meta name="theme-color" content="#05080f">
+  <meta property="og:title" content="rafi@terminal — Md. Saleh Rafi">
+  <meta property="og:description" content="Type `help` to explore an interactive, Linux-style developer portfolio.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="terminal.css">
+</head>
+<body>
+  <a class="skip" href="#cmd">Skip to command input</a>
+
+  <main class="shell">
+    <header class="topbar">
+      <a class="back" href="../">← portfolio</a>
+      <span class="topbar-title">md-saleh-rafi · portfolio.sh</span>
+      <a class="back" href="https://github.com/salehrafi" target="_blank" rel="noopener">github ↗</a>
+    </header>
+
+    <!-- Section navigation: stays in sync with the commands that run -->
+    <nav class="sections" aria-label="Portfolio sections">
+      <button type="button" data-cmd="whoami"><span>01</span>identity</button>
+      <button type="button" data-cmd="research"><span>02</span>research</button>
+      <button type="button" data-cmd="projects"><span>03</span>projects</button>
+      <button type="button" data-cmd="skills"><span>04</span>skills</button>
+      <button type="button" data-cmd="journey"><span>05</span>journey</button>
+    </nav>
+
+    <section class="window" aria-label="Interactive terminal">
+      <div class="window-bar">
+        <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="window-title">rafi@ewu: ~</span>
+        <span class="status" id="status" aria-hidden="true">● online</span>
+      </div>
+
+      <div class="screen" id="screen">
+        <div class="output" id="output" role="log" aria-live="polite" aria-relevant="additions"></div>
+
+        <form class="prompt-line" id="prompt-form" autocomplete="off">
+          <label for="cmd" class="prompt"><span class="user">rafi@ewu</span>:<span class="path">~</span>$</label>
+          <input id="cmd" name="cmd" type="text" spellcheck="false" autocapitalize="off" autocorrect="off"
+            aria-label="Terminal command. Type help and press Enter." enterkeyhint="go" autofocus>
+        </form>
+      </div>
+    </section>
+
+    <!-- Tap-friendly shortcuts for touch devices -->
+    <div class="chips" aria-label="Quick commands">
+      <button type="button" data-cmd="help">help</button>
+      <button type="button" data-cmd="about">about</button>
+      <button type="button" data-cmd="contact">contact</button>
+      <button type="button" data-cmd="github">github</button>
+      <button type="button" data-cmd="coffee">coffee</button>
+      <button type="button" data-cmd="sudo hire rafi">sudo hire rafi</button>
+      <button type="button" data-cmd="clear">clear</button>
+    </div>
+
+    <p class="hint">↑/↓ history · Tab autocomplete · Ctrl+L clear</p>
+  </main>
+
+  <noscript>
+    <p class="noscript">This terminal needs JavaScript. You can still visit the
+      <a href="../">main portfolio</a> or <a href="https://github.com/salehrafi">GitHub profile</a>.</p>
+  </noscript>
+
+  <script src="terminal.js"></script>
+</body>
+</html>
