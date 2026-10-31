@@ -12,6 +12,26 @@
 
 ---
 
+## 🖥️ Interactive Terminal
+
+<div align="center">
+
+<a href="https://salehrafi.github.io/salehrafi/terminal/">
+  <img src="./assets/terminal-preview.svg" alt="Preview of rafi@terminal: an interactive, Linux-style portfolio terminal" width="100%" />
+</a>
+
+<br><br>
+
+<a href="https://salehrafi.github.io/salehrafi/terminal/">
+  <img src="https://img.shields.io/badge/%3E___Launch_Interactive_Terminal-00BFFF?style=for-the-badge&logo=gnubash&logoColor=white" alt="Launch Interactive Terminal" />
+</a>
+
+<sub>Type <code>help</code> to explore · <code>01</code> identity · <code>02</code> research · <code>03</code> projects · <code>04</code> skills · <code>05</code> journey · try <code>coffee</code> or <code>sudo hire rafi</code></sub>
+
+</div>
+
+---
+
 ## 🚀 About Me
 
 <img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
