@@ -1,5 +1,5 @@
 <!--
-  ICON SPRITE — all icons used across the site live here as <symbol> defs.
+  ICON SPRITE: all icons used across the site live here as <symbol> defs.
   Referenced from index.html like:
     <svg class="icon" width="20" height="20" aria-hidden="true">
       <use href="icons.svg#icon-github"></use>
@@ -7,10 +7,10 @@
 
   To swap an icon: replace the <path>/<circle> content inside the matching
   <symbol>...</symbol> block (grab replacements from lucide.dev, phosphoricons.com,
-  or tabler.io/icons — keep viewBox="0 0 24 24" and stroke="currentColor" so it
+  or tabler.io/icons; keep viewBox="0 0 24 24" and stroke="currentColor" so it
   inherits the surrounding text color).
 
-  NOTE: <use href="icons.svg#id"> only loads over http(s) — it will not render
+  NOTE: <use href="icons.svg#id"> only loads over http(s); it will not render
   if you just double-click index.html and open it as a file:// page. Serve the
   folder locally (e.g. `npx serve` or VS Code "Live Server") or view it on
   GitHub Pages once deployed, and the icons will appear correctly.

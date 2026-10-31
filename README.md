@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi 👋, I'm **Md. Saleh Rafi**
+# Hi, I'm **Md. Saleh Rafi**
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Software+Engineer;Machine+Learning+Researcher;Full+Stack+Developer;" />
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🖥️ Interactive Terminal
+## Interactive Terminal
 
 <div align="center">
 
@@ -32,22 +32,22 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 <img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-- 🎓 **Computer Science & Engineering** graduate — B.Sc., East West University (September 2026)
-- 💻 Passionate about **Software Engineering**, **Machine Learning**, and **Full-Stack Development**
-- 🔬 Currently researching **Reliable AI for Medical Imaging**
-- 🌱 Exploring **Computer Vision**, **Deep Learning**, and **Scalable Software Systems**
-- 🤝 Open to collaboration on **Open Source**, **AI**, and **Web Development** projects
-- 📫 Reach me at **https://salehrafi.github.io/salehrafi/**
+- **Computer Science & Engineering** graduate, B.Sc., East West University (September 2026)
+- Passionate about **Software Engineering**, **Machine Learning**, and **Full-Stack Development**
+- Currently researching **Reliable AI for Medical Imaging**
+- Exploring **Computer Vision**, **Deep Learning**, and **Scalable Software Systems**
+- Open to collaboration on **Open Source**, **AI**, and **Web Development** projects
+- Reach me at **https://salehrafi.github.io/salehrafi/**
 
 <br>
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -60,7 +60,7 @@
 
 ---
 
-# 💻 Tech Stack
+# Tech Stack
 
 <div align="center">
 
@@ -87,18 +87,18 @@
 
 ---
 
-## 🔬 Research Interests
+## Research Interests
 
 <div align="center">
 
-🧠 **Machine Learning** • 👁️ **Computer Vision** • 🏥 **Medical AI**  
-🌐 **Full-Stack Development** • 🗄️ **Database Systems** • ⚙️ **Software Engineering**
+**Machine Learning** • **Computer Vision** • **Medical AI**  
+**Full-Stack Development** • **Database Systems** • **Software Engineering**
 
 </div>
 
 ---
 
-## 📈 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
@@ -125,6 +125,6 @@
 
 <div align="center">
 
-### ✨ *"Building intelligent systems that solve real-world problems."*
+### *"Building intelligent systems that solve real-world problems."*
 
 </div>

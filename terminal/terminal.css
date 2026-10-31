@@ -1,4 +1,4 @@
-/* rafi@terminal — dark, Linux-inspired terminal portfolio */
+/* rafi@terminal: dark, Linux-inspired terminal portfolio */
 
 :root {
   --bg: #05080f;
@@ -61,7 +61,7 @@ a:hover { color: var(--blue); }
 .back { color: var(--muted); text-decoration: none; }
 .back:hover { color: var(--cyan); }
 
-/* 01–05 section tabs */
+/* 01-05 section tabs */
 .sections {
   display: grid;
   grid-template-columns: repeat(5, 1fr);

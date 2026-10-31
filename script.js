@@ -122,21 +122,6 @@
   );
   counters.forEach(el => counterObserver.observe(el));
 
-    //  6. PROFICIENCY BARS (fill width on scroll into view)
-  const fills = document.querySelectorAll('.proficiency__fill');
-  const fillObserver = new IntersectionObserver(
-    (entries, obs) => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        const el = entry.target;
-        el.style.width = `${el.getAttribute('data-fill')}%`;
-        obs.unobserve(el);
-      });
-    },
-    { threshold: 0.3 }
-  );
-  fills.forEach(el => fillObserver.observe(el));
-
     //  7. SKILL PILL TOOLTIP (shows proficiency level on hover/focus)
   document.querySelectorAll('.pill-row--interactive .pill[data-level]').forEach(pill => {
     pill.setAttribute('title', `Proficiency: ${pill.getAttribute('data-level')}%`);
@@ -248,7 +233,7 @@ if (form) {
       });
       if (response.ok) {
         formNote.classList.remove('is-error');
-        formNote.textContent = "Thanks — your message is on its way. I'll reply soon.";
+        formNote.textContent = "Thanks, your message is on its way. I'll reply soon.";
         form.reset();
       } else {
         throw new Error("Form submission failed");
@@ -282,7 +267,7 @@ if (form) {
     }, 2600);
   }
 
-    //  12. HERO CANVAS — animated node/edge graph background
+    //  12. HERO CANVAS: animated node/edge graph background
 
   const canvas = document.getElementById('graphCanvas');
 
