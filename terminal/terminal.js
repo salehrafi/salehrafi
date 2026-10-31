@@ -40,7 +40,7 @@
       <dl class="kv">
         <dt>name</dt><dd class="b">Md. Saleh Rafi</dd>
         <dt>role</dt><dd>Software Engineer · Machine Learning Researcher · Full Stack Developer</dd>
-        <dt>status</dt><dd>Final-Year CSE Student @ East West University, Bangladesh</dd>
+        <dt>status</dt><dd>CSE Graduate @ East West University, Bangladesh <span class="c-muted">(B.Sc., September 2026)</span></dd>
         <dt>location</dt><dd>Dhaka, Bangladesh</dd>
         <dt>motto</dt><dd class="c-cyan">"Building intelligent systems that solve real-world problems."</dd>
       </dl>
@@ -58,7 +58,7 @@
         <li>⚙️ Software Engineering</li>
       </ul>
       <div class="card">
-        <div class="title">Thesis · GATv2 for Medical Imaging <span class="c-green">[ongoing]</span></div>
+        <div class="title">Thesis · GATv2 for Medical Imaging <span class="c-green">[completed · 2026]</span></div>
         Hybrid ResNet18 → SLIC superpixel → GATv2Conv pipeline for chest X-ray classification, with a
         statistical analysis plan covering bootstrapped confidence intervals and paired significance testing.
         <div class="c-muted">Supervised by Dr. Ahmed Wasif Reza</div>
@@ -118,20 +118,63 @@
     },
 
     journey: () => `
-      ${heading("05", "developer journey")}
+      ${heading("05", "academic journey")}
+      <p class="c-muted">school → college → university. <span class="c-green">cat</span> any stage: school, college, university</p>
       <div class="timeline">
-        <div class="ev"><span class="c-blue">2014 — 2019</span> · <span class="b">SSC</span>, Kashira High School
-          <div class="c-muted">Science Group · GPA 5.00 / 5.00</div></div>
-        <div class="ev"><span class="c-blue">2019 — 2021</span> · <span class="b">HSC</span>, Police Lines School &amp; College, Bogura
-          <div class="c-muted">Science Group · GPA 5.00 / 5.00</div></div>
-        <div class="ev"><span class="c-blue">2022 — 2026</span> · <span class="b">B.Sc. in CSE</span>, East West University
-          <div class="c-muted">Deep Learning · Computer Vision · Software Engineering</div></div>
-        <div class="ev"><span class="c-blue">2024</span> · <span class="b c-yellow">🏆 Datathon Champion</span>
-          <div class="c-muted">National Telco Warfare, Data War segment — #1 among 17 teams in the final round</div></div>
-        <div class="ev"><span class="c-blue">2026</span> · <span class="b">CSE 445 Computer Vision</span>
-          <div class="c-muted">RF-DETR vs. YOLO on thermal imaging · Harris corner detection</div></div>
-        <div class="ev now"><span class="c-green">now</span> · <span class="b">Final Year Capstone</span>
-          <div class="c-muted">GATv2 for medical imaging — data pipeline, ablations, statistical validation, writing</div></div>
+        <div class="ev">${sections.school()}</div>
+        <div class="ev">${sections.college()}</div>
+        <div class="ev now">${sections.university()}</div>
+      </div>`,
+
+    school: () => `
+      <div class="card">
+        <div class="title">🏫 School · Secondary School Certificate (SSC)</div>
+        <dl class="kv">
+          <dt>institution</dt><dd>Kashira High School</dd>
+          <dt>location</dt><dd>Akkelpur, Joypurhat, Bangladesh</dd>
+          <dt>period</dt><dd>2014 — 2019</dd>
+          <dt>group</dt><dd>Science</dd>
+          <dt>result</dt><dd class="c-green b">GPA 5.00 / 5.00</dd>
+        </dl>
+        <p>Where it started. I completed my SSC in the Science Group, building a foundation in
+        science and analytical thinking. Physics and Higher Mathematics were my strongest subjects.</p>
+        ${tags(["Science Group", "Physics", "Higher Mathematics"])}
+      </div>`,
+
+    college: () => `
+      <div class="card">
+        <div class="title">🎒 College · Higher Secondary Certificate (HSC)</div>
+        <dl class="kv">
+          <dt>institution</dt><dd>Police Lines School &amp; College</dd>
+          <dt>location</dt><dd>Bogura, Bangladesh</dd>
+          <dt>period</dt><dd>2019 — 2021</dd>
+          <dt>group</dt><dd>Science</dd>
+          <dt>result</dt><dd class="c-green b">GPA 5.00 / 5.00</dd>
+        </dl>
+        <p>I completed my HSC in the Science Group, building a foundation in mathematics, physics and
+        analytical thinking. This is also where I first started programming, which led me to computer science.</p>
+        ${tags(["Science Group", "Physics", "Higher Mathematics", "Programming Foundation"])}
+      </div>`,
+
+    university: () => `
+      <div class="card">
+        <div class="title">🎓 University · B.Sc. in Computer Science &amp; Engineering <span class="c-green">[graduated]</span></div>
+        <dl class="kv">
+          <dt>institution</dt><dd>East West University</dd>
+          <dt>location</dt><dd>Dhaka, Bangladesh</dd>
+          <dt>period</dt><dd>2022 — 2026</dd>
+          <dt>graduated</dt><dd class="c-green b">September 2026</dd>
+          <dt>focus</dt><dd>Machine learning, computer vision, graph representation learning</dd>
+        </dl>
+        <p>My coursework covered data structures, algorithms, statistics, software engineering and
+        applied AI, and that is where I moved into research.</p>
+        <ul class="list">
+          <li><span class="c-blue">2024</span> · <span class="b c-yellow">🏆 Datathon Champion</span>, National Telco Warfare (Data War segment). Placed #1 among 17 teams in the final round.</li>
+          <li><span class="c-blue">2026</span> · <span class="b">CSE 445 Computer Vision</span>. Benchmarked RF-DETR against YOLO on thermal imaging, plus classical CV such as Harris corner detection.</li>
+          <li><span class="c-blue">2026</span> · <span class="b">Capstone / Thesis</span>, supervised by Dr. Ahmed Wasif Reza. A GATv2-based pipeline for 5-class chest X-ray classification, where I owned the data pipeline, ablations, statistical validation and writing.</li>
+          <li><span class="c-green">Sep 2026</span> · <span class="b">Graduated</span>, B.Sc. in CSE 🎓</li>
+        </ul>
+        ${tags(["Deep Learning", "Computer Vision", "Software Engineering", "GNNs"])}
       </div>`,
   };
 
@@ -142,7 +185,7 @@
     ["research", "02 · research interests"],
     ["projects", "03 · selected projects"],
     ["skills", "04 · technical skills"],
-    ["journey", "05 · education & milestones"],
+    ["journey", "05 · academic journey (school, college, university)"],
     ["about", "the about-me summary"],
     ["contact", "ways to reach me"],
     ["github", "open my GitHub profile"],
@@ -160,18 +203,21 @@
       <div class="cmd-grid">
         ${HELP.map(([c, d]) => `<button type="button" data-run="${c}">${c}</button><span class="c-muted">${d}</span>`).join("")}
       </div>
-      <p class="c-muted">Also: ls, echo, date, pwd, open &lt;linkedin|kaggle|codeforces|website&gt;</p>`,
+      <p class="c-muted">Also: school, college, university, education, ls, echo, date, pwd, open &lt;linkedin|kaggle|codeforces|website&gt;</p>`,
 
     whoami: sections.whoami,
     research: sections.research,
     projects: sections.projects,
     skills: sections.skills,
     journey: sections.journey,
+    school: sections.school,
+    college: sections.college,
+    university: sections.university,
 
     about: () => `
       ${heading("", "about me")}
       <ul class="list">
-        <li>🎓 Final-year <span class="b">Computer Science &amp; Engineering</span> student</li>
+        <li>🎓 <span class="b">Computer Science &amp; Engineering</span> graduate (B.Sc., September 2026)</li>
         <li>💻 Passionate about <span class="b">Software Engineering</span>, <span class="b">Machine Learning</span>, and <span class="b">Full-Stack Development</span></li>
         <li>🔬 Currently researching <span class="b">Reliable AI for Medical Imaging</span></li>
         <li>🌱 Exploring <span class="b">Computer Vision</span>, <span class="b">Deep Learning</span>, and <span class="b">Scalable Software Systems</span></li>
@@ -224,13 +270,14 @@
     cat: (args) => {
       const f = (args[0] || "").toLowerCase();
       if (f === "readme.md") return commands.about();
+      if (["school", "college", "university"].includes(f)) return commands[f]();
       if (f === "resume.pdf") return `<span class="c-red">cat: resume.pdf: binary file — try <span class="c-green">contact</span> and just ask 😉</span>`;
       return `<span class="c-red">cat: ${esc(args[0] || "")}: No such file or directory</span>`;
     },
 
     cd: (args) => {
       const dir = (args[0] || "").replace(/\/$/, "").toLowerCase();
-      const map = { identity: "whoami", research: "research", projects: "projects", skills: "skills", journey: "journey" };
+      const map = { identity: "whoami", research: "research", projects: "projects", skills: "skills", journey: "journey", school: "school", college: "college", university: "university" };
       if (map[dir]) return run(map[dir], { echo: false });
       if (!dir || dir === "~" || dir === "..") return "";
       return `<span class="c-red">cd: ${esc(args[0])}: No such file or directory</span>`;
@@ -264,6 +311,8 @@
     hello: () => "Hi there 👋 — type <span class=\"c-green\">help</span> to get started.",
   };
   commands.hi = commands.hello;
+  commands.education = commands.journey;
+  commands.academic = commands.journey;
   commands["?"] = commands.help;
   commands.man = commands.help;
   commands.cls = () => commands.clear();
@@ -279,6 +328,8 @@
   const history = [];
   let histIndex = 0;
   const SECTION_CMDS = ["whoami", "research", "projects", "skills", "journey"];
+  // extra commands that belong to a section tab
+  const TAB_OF = { school: "journey", college: "journey", university: "journey", education: "journey", academic: "journey" };
 
   function print(html, cls) {
     const div = document.createElement("div");
@@ -314,7 +365,7 @@
       return "";
     }
 
-    if (SECTION_CMDS.includes(name)) setActive(name);
+    if (SECTION_CMDS.includes(name) || TAB_OF[name]) setActive(TAB_OF[name] || name);
     const result = fn(parts.slice(1));
     if (result) print(result);
     return "";

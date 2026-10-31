@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Software+Engineer;Machine+Learning+Researcher;Full+Stack+Developer;" />
 
-### Final-Year CSE Student @ East West University, Bangladesh
+### CSE Graduate (B.Sc., September 2026) @ East West University, Bangladesh
 
 <img src="https://komarev.com/ghpvc/?username=salehrafi&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="views" />
 
@@ -26,7 +26,7 @@
   <img src="https://img.shields.io/badge/%3E___Launch_Interactive_Terminal-00BFFF?style=for-the-badge&logo=gnubash&logoColor=white" alt="Launch Interactive Terminal" />
 </a>
 
-<sub>Type <code>help</code> to explore · <code>01</code> identity · <code>02</code> research · <code>03</code> projects · <code>04</code> skills · <code>05</code> journey · try <code>coffee</code> or <code>sudo hire rafi</code></sub>
+<sub>Type <code>help</code> to explore · <code>01</code> identity · <code>02</code> research · <code>03</code> projects · <code>04</code> skills · <code>05</code> academic journey · try <code>coffee</code> or <code>sudo hire rafi</code></sub>
 
 </div>
 
@@ -36,7 +36,7 @@
 
 <img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-- 🎓 Final-year **Computer Science & Engineering** student
+- 🎓 **Computer Science & Engineering** graduate — B.Sc., East West University (September 2026)
 - 💻 Passionate about **Software Engineering**, **Machine Learning**, and **Full-Stack Development**
 - 🔬 Currently researching **Reliable AI for Medical Imaging**
 - 🌱 Exploring **Computer Vision**, **Deep Learning**, and **Scalable Software Systems**
