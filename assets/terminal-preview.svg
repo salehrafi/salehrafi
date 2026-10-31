@@ -45,7 +45,7 @@
     <text x="28" y="136"><tspan class="muted">role</tspan><tspan x="118">Software Engineer · ML Researcher · Full Stack Developer</tspan></text>
   </g>
   <g class="l l4">
-    <text x="28" y="160"><tspan class="muted">status</tspan><tspan x="118">Final-Year CSE Student @ East West University</tspan></text>
+    <text x="28" y="160"><tspan class="muted">status</tspan><tspan x="118">CSE Graduate @ East West University (Sept 2026)</tspan></text>
   </g>
   <g class="l l5">
     <text x="28" y="184"><tspan class="muted">focus</tspan><tspan x="118" class="cyan">Reliable AI for Medical Imaging</tspan></text>
@@ -76,7 +76,7 @@
     <g transform="translate(676 246)">
       <rect width="156" height="54" rx="8" fill="#0d1626" stroke="#1b2a40"/>
       <rect x="10" y="10" width="26" height="18" rx="3" fill="#00bfff"/><text x="23" y="24" text-anchor="middle" class="num">05</text>
-      <text x="10" y="45">journey</text>
+      <text x="10" y="45">academic</text>
     </g>
   </g>
 

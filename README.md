@@ -1,10 +1,10 @@
 <div align="center">
 
-# Hi 👋, I'm **Md. Saleh Rafi**
+# Hi, I'm **Md. Saleh Rafi**
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Software+Engineer;Machine+Learning+Researcher;Full+Stack+Developer;" />
 
-### Final-Year CSE Student @ East West University, Bangladesh
+### CSE Graduate (B.Sc., September 2026) @ East West University, Bangladesh
 
 <img src="https://komarev.com/ghpvc/?username=salehrafi&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="views" />
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🖥️ Interactive Terminal
+## Interactive Terminal
 
 <div align="center">
 
@@ -26,28 +26,28 @@
   <img src="https://img.shields.io/badge/%3E___Launch_Interactive_Terminal-00BFFF?style=for-the-badge&logo=gnubash&logoColor=white" alt="Launch Interactive Terminal" />
 </a>
 
-<sub>Type <code>help</code> to explore · <code>01</code> identity · <code>02</code> research · <code>03</code> projects · <code>04</code> skills · <code>05</code> journey · try <code>coffee</code> or <code>sudo hire rafi</code></sub>
+<sub>Type <code>help</code> to explore · <code>01</code> identity · <code>02</code> research · <code>03</code> projects · <code>04</code> skills · <code>05</code> academic journey · try <code>coffee</code> or <code>sudo hire rafi</code></sub>
 
 </div>
 
 ---
 
-## 🚀 About Me
+## About Me
 
 <img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-- 🎓 Final-year **Computer Science & Engineering** student
-- 💻 Passionate about **Software Engineering**, **Machine Learning**, and **Full-Stack Development**
-- 🔬 Currently researching **Reliable AI for Medical Imaging**
-- 🌱 Exploring **Computer Vision**, **Deep Learning**, and **Scalable Software Systems**
-- 🤝 Open to collaboration on **Open Source**, **AI**, and **Web Development** projects
-- 📫 Reach me at **https://salehrafi.github.io/salehrafi/**
+- **Computer Science & Engineering** graduate, B.Sc., East West University (September 2026)
+- Passionate about **Software Engineering**, **Machine Learning**, and **Full-Stack Development**
+- Currently researching **Reliable AI for Medical Imaging**
+- Exploring **Computer Vision**, **Deep Learning**, and **Scalable Software Systems**
+- Open to collaboration on **Open Source**, **AI**, and **Web Development** projects
+- Reach me at **https://salehrafi.github.io/salehrafi/**
 
 <br>
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -60,7 +60,7 @@
 
 ---
 
-# 💻 Tech Stack
+# Tech Stack
 
 <div align="center">
 
@@ -87,18 +87,18 @@
 
 ---
 
-## 🔬 Research Interests
+## Research Interests
 
 <div align="center">
 
-🧠 **Machine Learning** • 👁️ **Computer Vision** • 🏥 **Medical AI**  
-🌐 **Full-Stack Development** • 🗄️ **Database Systems** • ⚙️ **Software Engineering**
+**Machine Learning** • **Computer Vision** • **Medical AI**  
+**Full-Stack Development** • **Database Systems** • **Software Engineering**
 
 </div>
 
 ---
 
-## 📈 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
@@ -125,6 +125,6 @@
 
 <div align="center">
 
-### ✨ *"Building intelligent systems that solve real-world problems."*
+### *"Building intelligent systems that solve real-world problems."*
 
 </div>
