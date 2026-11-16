@@ -22,7 +22,7 @@ rafi = {
 }
 ```
 
-I write about technology, databases and travel. Visit my **[blog](https://salehrafi.vercel.app/blog)** for more of my thoughts.
+I write about technology, intellegent systems and others topics. Visit my **[blog](https://salehrafi.vercel.app/blog)** for more of my thoughts.
 
 ### `$ tech --stack`
 
