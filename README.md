@@ -22,8 +22,7 @@ rafi = {
 }
 ```
 
-I build web apps and ML systems with Python, FastAPI/Flask, SQL and JavaScript.
-Projects, research and experience are on my **[portfolio](https://salehrafi.vercel.app)**.
+I write about technology, databases and travel. Visit my **[blog](https://salehrafi.vercel.app/blog)** for more of my thoughts.
 
 ### `$ tech --stack`
 
